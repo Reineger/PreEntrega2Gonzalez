@@ -195,4 +195,15 @@ nav ul {
       width: 375px;
       height: 375px;
     }
+    .title {
+      font-size: 20px;
+    }
+
+    .contenedor1 {
+      flex-direction: column;
+    }
+    .pie{
+      font-size: 12px;
+      margin-bottom: 0.5rem;
+    }
     }
