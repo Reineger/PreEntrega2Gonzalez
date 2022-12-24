@@ -1,0 +1,198 @@
+h1 {
+  color: #f1f2f5;
+
+  font-weight: 400;
+
+  text-align: center;
+
+  font-size: 32px;
+
+  font-family: "Monserrat", sans-serif;
+}
+.title {
+  color: rgb(233, 233, 233);
+  font-size: 6rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.link1{
+  text-align: center;
+  color: rgb(25, 226, 183);
+}
+
+.titulo-noticia {
+  color: blue;
+}
+
+.parrafo-noticia {
+  color: cadetblue;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+nav ul {
+  list-style: none;
+}
+
+.portada {
+  height: 80vh;
+  resize: both;
+  overflow: auto;
+
+  background-image: url("../images/dragon_flight.jpg");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+.body0 {
+  background-image: url(../images/dragon_flight.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body1 {
+  height: 80vh;
+  resize: both;
+  overflow: auto;
+
+  background-image: url(../images/cinematic_render_4.webp);
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tamaño_foto {
+  width: 30px;
+  height: 30px;
+}
+
+.contenedorimagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.iconosrds {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.contenedorimagenes p {
+  color: rgb(255, 251, 251);
+}
+
+.pie {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.iconosrds img {
+  padding: 0.5rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.infolink {
+  color: red;
+}
+
+.caja {
+  border: solid 40px blueviolet;
+
+  background-color: aqua;
+
+  width: 350px;
+
+  height: 350px;
+}
+
+.separador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40rem;
+  color: #f304b7;
+}
+
+.body1{
+  color:whitesmoke ;
+
+  font-weight: 400;
+
+  text-align: left;
+
+  font-size: 32px;
+
+  font-family: "Monserrat", sans-serif;
+}
+
+
+.body2{
+  background-color: rgba(95, 94, 94, 0.651);
+}
+
+.price {
+  text-align: center;
+  animate__wobble
+}
+
+.buygame{
+  text-align: center;
+  transition: transform 1s;
+}
+
+.payview{
+  background-color: black;
+}
+
+.d-block{
+  width: 125px;
+  height: 800px;
+
+}
+
+
+.selectgame{
+  text-align: center;
+}
+
+.carousel-caption p {
+  color:rgb(255, 12, 235);
+  padding: 20px;
+}
+
+  @media only screen and (max-width: 375px) {
+    .d-block {
+      width: 375px;
+      height: 375px;
+    }
+    }
