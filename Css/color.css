@@ -42,7 +42,7 @@ nav ul {
   resize: both;
   overflow: auto;
 
-  background-image: url("../images/dragon_flight.jpg");
+  background-image: url("./images/dragon_flight.jpg");
 
   background-repeat: no-repeat;
 
